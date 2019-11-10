@@ -1,20 +1,7 @@
-.container {
-    background: red;
+.navbar-toggler {
+    background-color: blueviolet;
 }
 
-h1 {
-    color: white;
-}
-
-.nav a {
-    color: white;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: grey;
-}
-
-a.disabled {
-    font-weight: bold;
+.navbar-toggler-icon {
+    background-color: blueviolet;
 }

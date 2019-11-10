@@ -13,15 +13,45 @@
   </head>
 
   <body>
-    <div class="container">
-      <nav class="nav justify-content-end flex-column flex-md-row">
-          <a class="nav-link disabled" href="#">Home</a>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link" href="#">About</a>
-      </nav>
-      <h1>Hello, world!</h1>
-    </div><!-- end of container div -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+      <div class="container"><!-- container div for navigasjon -->
+        <a href="#" class="navbar-brand">Wisdom Pet Medicine</a>
+
+        <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#collapseIt"
+          aria-controls="collapseIt"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapseIt">
+          <div class="navbar-nav mr-a">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About</a>
+            <a href="#" class="nav-item nav-link">Portfolio</a>
+            <a href="#" class="nav-item nav-link">Contact</a>
+          </div><!-- navbar-nav -->
+        </div><!-- collapse navbar-collapse -->
+      </div><!-- container div for navigasjon -->
+    </nav>
+
+      <div class="container"></div> <!-- container div for resten av innholdet-->
+      
+        <h1>Hello, world!</h1>
+
+        <button class="btn btn-success" type="button" data-toggle="collapse"
+          data-target="#jjbergBtn">
+          Her kommer en liste
+        </button>
+
+        <div class="collapse" id="jjbergBtn">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div><!-- end of container div -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
